@@ -2,8 +2,8 @@ from ultralytics import YOLO
 import cv2
 
 # Load your trained YOLO model
-model = YOLO('E:/ML-MR-VR/runs/detect/train4/weights/best.pt')
-
+# model = YOLO('E:/ML-MR-VR/runs/detect/train4/weights/best.pt')
+model = YOLO('E:/ML-MR-VR/runs/segment/train2/weights/best.pt')
 # Open webcam (0 = default laptop webcam)
 cap = cv2.VideoCapture(0)
 
