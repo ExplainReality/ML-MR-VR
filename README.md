@@ -37,6 +37,7 @@ The segmentation stage focuses on **precise pixel-level object recognition**.
 We experimented with:
 - **YOLOv8-seg**
 - **YOLOv9-seg**
+![Initial Results]("C:\Users\klara.orban\Downloads\2025-08-08 13_16_32-UNITY _ - Google Dokumentumok - Geschäftlich – Microsoft​ Edge.png")
 
 Highlights:
 - Trained locally for **250+ epochs** to ensure high accuracy.
@@ -58,5 +59,5 @@ Highlights:
 ## 📌 Notes
 - All code from the original three branches (`dataset_collection`, `object_detection`, `segmentation`) is preserved in the `main` branch.
 - This repository aims to be both a **learning resource** and a **practical toolset** for future computer vision projects.
-
+Link to ![documentation](https://docs.google.com/document/d/1U6_q_0YK6zWxx516DnNw1ccuuMlfXvjCLV3By1FwMIg/edit?tab=t.8ln26orc533u)
 ---
