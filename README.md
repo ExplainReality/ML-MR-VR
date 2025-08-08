@@ -1,3 +1,7 @@
-﻿For the menu you can visit the Menu3D repository in this organization, or access this link: https://github.com/nioowsha/Menu3D.git.
+## Dataset Creation
 
-This repo contains data collection, data annotation, object detection and segmentation as well. --to be continued
+Since no existing dataset matched our requirements, we created our own.  
+We collected **over 5,000 high-quality images** by downloading them from Google Images.  
+The images were then **manually annotated** using Roboflow, ensuring precise and consistent labeling.
+
+This approach allowed us to tailor the dataset exactly to our needs, both in terms of content and annotation quality.
