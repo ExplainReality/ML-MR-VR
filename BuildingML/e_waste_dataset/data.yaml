@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Mouse', 'Printer', 'Screen', 'Smartphone', 'keyboard', 'washing Machine']
+
+roboflow:
+  workspace: ml-mr
+  project: ml-mr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ml-mr/ml-mr/dataset/2
