@@ -37,7 +37,6 @@ The segmentation stage focuses on **precise pixel-level object recognition**.
 We experimented with:
 - **YOLOv8-seg**
 - **YOLOv9-seg**
-![Initial Results]("C:\Users\klara.orban\Downloads\2025-08-08 13_16_32-UNITY _ - Google Dokumentumok - Geschäftlich – Microsoft​ Edge.png")
 
 Highlights:
 - Trained locally for **250+ epochs** to ensure high accuracy.
