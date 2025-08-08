@@ -1,7 +1,62 @@
-## Dataset Creation
+# Machine Learning Visual Recognition (MLVR)
 
-Since no existing dataset matched our requirements, we created our own.  
-We collected **over 5,000 high-quality images** by downloading them from Google Images.  
-The images were then **manually annotated** using Roboflow, ensuring precise and consistent labeling.
+This repository contains the complete workflow and source code for our machine learning and computer vision experiments.  
+Although the project started with three separate branches for different stages of development, **all content is also available on the `main` branch** for convenience.
 
-This approach allowed us to tailor the dataset exactly to our needs, both in terms of content and annotation quality.
+---
+
+## 📂 Project Structure
+
+### 1. **Data Collection**
+When the project began, no suitable dataset was available.  
+To overcome this limitation, we developed and published a **custom web crawler** that:
+- Automatically collects and downloads relevant images.
+- Stores images locally to avoid API request limitations and rate caps.
+- Ensures reproducibility by keeping the dataset stable over time.
+
+This module is essential for building a diverse, high-quality dataset that fuels the later training phases.
+
+---
+
+### 2. **Object Detection**
+We implemented and trained multiple YOLO versions for object detection, including:
+- **YOLOv8s** (small)
+- **YOLOv8n** (nano)
+- **YOLOv9**
+
+Key features:
+- Trained on **both local hardware and server environments**.
+- Capable of detecting **multiple objects simultaneously**.
+- Generates **bounding boxes** around detected objects.
+- Supports **real-time and batch detection**.
+
+---
+
+### 3. **Segmentation**
+The segmentation stage focuses on **precise pixel-level object recognition**.  
+We experimented with:
+- **YOLOv8-seg**
+- **YOLOv9-seg**
+
+Highlights:
+- Trained locally for **250+ epochs** to ensure high accuracy.
+- Achieved **80%+ accuracy** on validation data.
+- Produces **segmentation masks** that highlight the exact shape and boundaries of detected objects.
+- Suitable for tasks requiring detailed object outlines rather than simple bounding boxes.
+
+---
+
+## 🚀 Technologies Used
+- **YOLOv8 / YOLOv9** (detection and segmentation)
+- **Python** (model training, inference scripts, utilities)
+- **Custom web scraping** for dataset generation
+- **Local & remote training environments**
+- **GPU acceleration** (CUDA)
+
+---
+
+## 📌 Notes
+- All code from the original three branches (`dataset_collection`, `object_detection`, `segmentation`) is preserved in the `main` branch.
+- This repository aims to be both a **learning resource** and a **practical toolset** for future computer vision projects.
+
+---
