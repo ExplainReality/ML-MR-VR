@@ -58,5 +58,6 @@ Highlights:
 ## 📌 Notes
 - All code from the original three branches (`dataset_collection`, `object_detection`, `segmentation`) is preserved in the `main` branch.
 - This repository aims to be both a **learning resource** and a **practical toolset** for future computer vision projects.
-Link to ![documentation](https://docs.google.com/document/d/1U6_q_0YK6zWxx516DnNw1ccuuMlfXvjCLV3By1FwMIg/edit?tab=t.8ln26orc533u)
+Link to ![documentation](https://docs.google.com/document/d/1U6_q_0YK6zWxx516DnNw1ccuuMlfXvjCLV3By1FwMIg/edit?tab=t.8ln26orc533u) created detailed by us. (for access don't hesitate to contact us)
+Link to ![menu](https://github.com/nioowsha/Menu3D.git) for the headset, created in Unity.
 ---
