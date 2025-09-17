@@ -55,6 +55,45 @@ Highlights:
 
 ---
 
+## Prerequisites
+Before installing, make sure you have the following:
+- **Python 3.10+**
+- **CUDA 11.8 + cuDNN** (required for GPU acceleration)
+- **TensorFlow-GPU 2.10.1** (with `tensorflow-estimator`, `tensorboard`)
+- **PyTorch 2.7.0 + CUDA 11.8**, `torchvision`, `torchaudio`
+- **ONNX Runtime**
+- **Ultralytics (YOLOv8)**
+
+---
+
+## Backend Setup
+
+### Clone the repository
+```bash
+git clone https://github.com/ExplainReality/ML-MR-VR.git
+cd ML-MR-VR
+```
+
+### On Windows
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### On Linux/macOS
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Install dependencies
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+After these steps: you can run the pre-loaded models on your dataset as well. Or you can scrape your own dataset, using the scraper.
+
 ## 📌 Notes
 - All code from the original three branches (`dataset_collection`, `object_detection`, `segmentation`) is preserved in the `main` branch.
 - This repository aims to be both a **learning resource** and a **practical toolset** for future computer vision projects.
